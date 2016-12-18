@@ -1,11 +1,12 @@
-export default  {
+export default   {
   "particles": {
     "number": {
-      "value": 40,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
+      "value": 100,
+      //FIXME: Density causes issues cross platform
+      // "density": {
+      //   "enable": true,
+      //   "value_area": 2000
+      // }
     },
     "color": {
       "value": "#ffffff"
@@ -103,5 +104,6 @@ export default  {
         "particles_nb": 2
       }
     }
-  }
+  },
+  "retina_detect": true,
 }

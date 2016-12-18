@@ -38,10 +38,13 @@ const styles = {
     marginTop: '10%',
     borderRadius: '50%',
     width: 120,
-    height: 120
+    height: 120,
+    minHeight: 120 // Firefox
   },
   profileItem: {
     display: 'flex',
     alignItems: 'center',
+    minWidth: 0, // Firefox
+    minHeight: 0, // Firefox
   }
 };
