@@ -1,6 +1,6 @@
 import { style } from 'next/css';
 import Head from '../components/Head';
-import Background from '../components/Background';
+import Background from '../components/background';
 import Profile from '../components/Profile';
 
 export default () => (
