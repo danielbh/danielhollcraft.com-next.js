@@ -2107,19 +2107,13 @@ react-hot-loader@3.0.0-beta.6:
     redbox-react "^1.2.5"
     source-map "^0.4.4"
 
-react-particles-js@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-1.4.0.tgz#d516d2ed03fac389ea2c10302dfa680f10d27284"
-  dependencies:
-    react "^15.4.1"
-
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
   dependencies:
     lodash "^4.6.1"
 
-react@15.4.1, react@^15.4.1:
+react@15.4.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.4.1.tgz#498e918602677a3983cd0fd206dfe700389a0dd6"
   dependencies:

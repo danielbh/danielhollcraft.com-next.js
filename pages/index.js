@@ -11,7 +11,6 @@ export default () => (
       <Profile/>
     </div>
   </div>
-
 )
 
 const styles = {
