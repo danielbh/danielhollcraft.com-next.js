@@ -1,0 +1,13 @@
+{
+  "name": "danielhollcraft.com",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^1.2.3",
+    "react-particles-js": "^1.4.0"
+  }
+}
