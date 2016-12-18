@@ -1,10 +1,7 @@
-/**
- * Created by danielhollcraft on 12/18/16.
- */
-export default {
+export default  {
   "particles": {
     "number": {
-      "value": 30,
+      "value": 40,
       "density": {
         "enable": true,
         "value_area": 800
@@ -39,7 +36,7 @@ export default {
       }
     },
     "size": {
-      "value": 3,
+      "value": 5,
       "random": true,
       "anim": {
         "enable": false,
@@ -57,12 +54,11 @@ export default {
     },
     "move": {
       "enable": true,
-      "speed": 3,
+      "speed": 6,
       "direction": "none",
       "random": false,
       "straight": false,
       "out_mode": "out",
-      "bounce": false,
       "attract": {
         "enable": false,
         "rotateX": 600,
@@ -98,8 +94,7 @@ export default {
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
-        "duration": 0.4
+        "distance": 200
       },
       "push": {
         "particles_nb": 4
@@ -108,6 +103,5 @@ export default {
         "particles_nb": 2
       }
     }
-  },
-  "retina_detect": true
+  }
 }
