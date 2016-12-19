@@ -7,9 +7,9 @@ import config from './particles.config'
 
 class Background extends Component {
   componentDidMount() {
-    // TODO: Import particleJS from npm.
-    // Imported in Head.js. Particles JS is not built for a universal environment and requires
-    // a rewrite to play nice with next.js and npm imports.
+
+    // Daniel, you should be able to import this from npm as you mentioned 
+    // does this exist in npm? is it throwing an error when used this way?
     particlesJS('particle', config);
   }
   render() {
