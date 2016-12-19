@@ -8,7 +8,8 @@ import config from './particles.config'
 class Background extends Component {
   componentDidMount() {
     // TODO: Import particleJS from npm.
-    // Imported in Head.js
+    // Imported in Head.js. Particles JS is not built for a universal environment and requires
+    // a rewrite to play nice with next.js and npm imports.
     particlesJS('particle', config);
   }
   render() {
